@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contact me | Ana Sidorka</title>
+        <link href="./style.css"  rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li><a href="home.html" class="navigation">About me</a></li>
+                <li><a href="contact.html" class="navigation">Contact</a></li>
+            </ul>
+        </nav>
+           <!--Top Navigation Menu -->
+        <div class="smallnav">
+            <div class="navstripe">
+                <a href="home.html" class="navigation logo">Ana S.</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars fa-2x"></i>
+                </a>
+            </div>
+            <ul id="menu">
+                <li><a href="home.html" class="navigation grey">About</a></li>
+                <li><a href="contact.html" class="navigation">Contact</a></li>
+            </ul>
+        </div>
+
+        <main>
+            <div id="slogan">
+                <h1>First impression matters.</h1>
+                <h2>So let's talk to know<br>if it's correct</h2>
+            </div>
+            <div id="form">
+                <form action="mailto: sidorkaanastasiya@gmail.com">
+                    <label for="name">your name:</label>
+                    <input type="text" id="name" name="contact name"><br>
+                    <label for="email">your email:</label>
+                    <input type="email" id="email" name="contact email"><br>
+                    <label for="message">how can I help you?</label>
+                    <textarea id="message" name="message" rows="4" cols="10"></textarea><br>
+                    <input type="submit" value="Submit" class="form-submit-button">
+                </form>
+                <div id="social">
+                    <h4>You can also find me here:</h4>
+                    <a href="https://www.facebook.com/profile.php?id=100008257148847" target="_blank" class="fa fa-facebook fa-2x"></a>
+                    <a href="https://www.linkedin.com/in/anastasia-sidorka-43b643183/" target="_blank" class="fa fa-linkedin fa-2x"></a>
+                    <a href="https://www.instagram.com/yelloow_panda79/" target="_blank" class="fa fa-instagram fa-2x"></a>
+                </div>
+            </div>
+        </main>
+
+            <footer>
+                <div id="about" class="footerbox">
+                    <h4>About</h4>
+                    <p>This is the first website I have built from scratch after completing the Codecademy course on the basics of HTML and CSS.</p>
+                </div>   
+                <div id="contact" class="footerbox">
+                    <h4>Contact</h4>
+                    <p>+375 33 6369449</p>
+                    <p>sidorkaanastasiya@gmail.com</p>
+                    <br>
+                    <p>Belarus, Minsk</p>
+                </div>
+                <div id="follow" class="footerbox">
+                    <h4>Follow me</h4>
+                    <a href="https://www.facebook.com/profile.php?id=100008257148847" target="_blank" class="fa fa-facebook fa-2x"></a>
+                    <a href="https://www.linkedin.com/in/anastasia-sidorka-43b643183/" target="_blank" class="fa fa-linkedin fa-2x"></a>
+                    <a href="https://www.instagram.com/yelloow_panda79/" target="_blank" class="fa fa-instagram fa-2x"></a>
+                </div>
+                <div id="copywrite" class="footerbox">
+                    <h4> </h4>
+                    <p>Designed by</p>
+                    <h5>Ana Sidorka</h5>
+                    <p>&#169 2022</p>
+                </div> 
+            </footer>
+            <script src="./script.js"></script>
+    </body>
+</html>

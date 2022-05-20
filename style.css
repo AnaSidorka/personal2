@@ -1,0 +1,427 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: block;
+    font-family: 'Poppins', sans-serif;
+}
+
+title{
+    display: none;
+}
+html{
+    font-size: 16px;
+}
+
+/*Header*/
+
+header{
+    position:relative;
+    height: 700px;
+    width: 100%;
+    background-color: darkgrey;
+    background-image: url("./pics/header.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+    color:white;
+}
+#intro{
+    text-align:center;
+    padding-top: 300px;
+    text-shadow: 6px 5px 5px black;
+}
+
+
+h1{
+    font-size: 2.1875rem;
+    font-weight: 500;
+}
+p{
+    font-size: 1.25rem;
+    font-weight:200;
+}
+
+
+nav {
+    background-color: black;
+    height: 65px;
+    color: #aa8173; 
+    position: sticky;
+    top: 0;
+    text-align: center;
+    font-size: 1.5rem;
+    text-transform: lowercase;
+    font-weight: 300;
+}
+nav h4{
+    display: none;
+}
+
+nav li{
+    display: inline-block;
+    width: 49%;
+    padding-top: 0.5rem;
+    text-transform: lowercase;
+    }
+    
+a.navigation {
+    text-decoration: none;
+    color:#aa8173;
+}
+a.navigation:active {
+    color:#6e2324;
+}
+a.navigation:hover {
+    color:#6e2324;
+    text-decoration: underline; 
+}
+
+h2{
+    color: #6e2324;
+    font-size: 2.8125rem;
+    font-weight: 300;
+    padding-top: 3.125rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+/*Places of work*/
+.work{
+    width: 70%;
+    margin: 5rem auto;
+}
+.work_logo {
+    display: inline-block;
+    width: 20%;
+    vertical-align: top;
+}
+.work_logo img{
+    object-fit: cover;
+    width:100%;
+}
+.work_description{
+    display: inline-block; 
+    width: 75%;
+    padding-left: 3px;
+}
+h3{
+    font-size: 2.8125rem;
+    font-weight: 200;
+}
+.work_description span{
+    font-size: 1.1875rem;
+    font-weight: 700;
+    line-height: 1.3;
+    letter-spacing: 0.7;
+}
+.work_description p{
+    line-height: 1.5;
+    font-weight: normal;
+    font-family: sans-serif;
+    color: #545353;
+}
+
+/*Skills section*/
+.skills {
+    width: 100%;
+    margin: 5px auto 0px;
+    background-color: #aa8173;
+}
+.skills h2{
+    padding-bottom: 5rem;
+}
+.skills_container{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+}
+
+/*sections on skill fields*/
+.field {
+    display: inline-block;
+    width: 20%;
+    width: 280px;
+    margin: 35px;
+    vertical-align: top;
+    }
+
+.field h3{
+    font-size: 2rem;
+    font-weight: 500;
+    letter-spacing: -0.02rem;
+    text-align: center;
+    padding-bottom: 1.25rem;
+}
+.field p{
+    text-align: justify;
+    padding-top: 0;
+    line-height: 1.5;
+    font-weight: thin;
+    font-family: sans-serif;
+    color: black;
+}
+
+
+
+/*Arrow buttons*/
+button{
+    border-style: none;
+    background-color: transparent;
+    margin: 0 auto;
+    padding: 15px;
+    cursor: pointer;
+}
+
+button img{
+    border-style: none;
+    background-color: transparent;
+    background-size: cover;
+}
+
+/* Footer section */
+footer{
+    padding: 1.5rem 6rem;
+    background-color: black;
+    color: white;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+}
+.footerbox{
+    vertical-align: top;
+    width: 20rem;
+    margin: 3rem 0;
+}
+.footerbox h4{
+    text-transform: uppercase;
+    font-weight: 200;
+    padding-bottom: 3.125rem;
+}
+.footerbox p{
+    font-size: 0.89rem;
+    width: 80%;
+}
+#copywrite h5{
+    text-transform: uppercase;
+    font-weight: 200;
+    font-size:1.4rem;
+}
+
+
+/* Style social icons */
+.fa {
+    color: white;
+    background-color: black;
+    font-size: 2.5rem;
+    margin: 1rem 1rem 1rem 0;
+    text-decoration: none;
+    overflow:hidden;
+  }  
+.fa:hover {
+    opacity: 0.7;
+  }
+
+/*<=== CONTACT ME ====>*/
+#slogan {
+    display: inline-block;
+    width: 59%;
+    height: 850px;
+    background-color: #aa8173;
+    vertical-align: top;
+    font-family: 'Roboto Condensed';
+    line-height: 1;
+    letter-spacing: 0.0625rem;
+    margin: 0;
+    text-align: left;
+}
+#form {
+    display: inline-block;
+    width: 39%;
+    height: 850px;
+    background-color: white;
+}
+
+#slogan h1{
+    font-family: 'Roboto Condensed';
+    font-size: 3.75rem;
+    color:#6e2324;
+    font-weight: 400;
+    padding: 18.75rem 0 0 2.1875rem;
+}
+#slogan h2{
+    font-family: 'Roboto Condensed';
+    font-size: 2.1875rem;
+    line-height: 1;
+    text-align: left;
+    padding: 1.25rem 0 0 2.1875rem;
+    text-transform: lowercase;
+    color: black;
+    font-weight: 300;
+}
+
+form {
+    margin: 4.375rem 0 0 5rem;
+    font-size: 1.5625rem;
+    letter-spacing: 0.0625rem;
+    /*color: #777575;*/
+    color: #aa8173;
+    line-height: 1;
+}
+input{
+    border: 0.1875rem solid lightgrey;
+    width: 80%;
+    height: 3.125rem;
+    font-size: 1.25rem;
+    border-radius: 0.25rem;
+    padding: 0.625rem;
+}
+input:focus {
+    border: 0.25rem solid #aa8173;
+}
+textarea {
+    border: 0.1875rem solid lightgrey;
+    width: 50%;
+    height: 200px;
+    font-size: 1.25rem;
+    width: 80%;
+    border-radius: 0.25rem;
+    padding: 0.625rem;
+}
+textarea:focus {
+    border: 0.25rem solid #aa8173;
+}
+label {
+    padding-bottom: 0.4375rem;
+}
+.form-submit-button {
+    background: #aa8173;
+    color: #6e2324;
+    border-style: outset;
+    border-color: #aa8173;
+    height: 50px;
+    width: 40%;
+    font-size: 1.25rem;
+    }
+
+#social {
+    margin: 1.875rem 0 0 5rem; 
+    font-size: 1.25rem;
+    color: #6e2324;
+    line-height: 0.5;
+}
+#social .fa {
+    color: #6e2324;
+    background-color: white;
+    font-size: 2rem;
+    margin: 1rem 1rem 1rem 0;
+    text-decoration: none;
+  }  
+#social .fa:hover {
+    opacity: 0.7;
+  }
+
+/* Style the navigation menu */
+.smallnav {
+    display: none;
+}
+@media only screen and (max-width: 900px) {
+nav{
+    display: none;
+}
+.smallnav {
+    display: block;
+    background-color: black;
+    position: sticky;
+    top: 0;
+}
+.navstripe{
+    height: 65px;
+    color: #aa8173; 
+    text-transform: lowercase;
+    font-weight: 300;
+}
+.logo {
+    font-size: 2.5rem;
+    letter-spacing: -0.35rem;
+    float: left;
+    padding: 0 0.5rem;
+    overflow: hidden;
+}
+.navstripe .fa {
+    color:#aa8173;
+    float: right;
+    overflow: hidden;
+}
+#menu {
+    display: none;
+    text-align: left;
+    font-size: 1.5rem;
+    text-transform: lowercase;
+      
+}
+#menu a{
+    padding: 0.5rem 0 0.5rem 2rem;
+}
+
+.grey {
+    background-color: #362d2b;
+}
+
+}
+
+
+/*MEDIA!!!!*/
+
+@media screen and (max-width: 500px){
+    
+    html{
+        font-size: 18px;
+    }
+    header {
+        background-image:url("./pics/tall-header.png");
+        background-position: center;
+        height: 700px;
+    }
+    .tohide{
+        display: none;
+    }
+    nav h4{
+        display:block;
+        text-align: left;
+        padding: 10px 0 0 20px;
+    }
+    nav li{
+        display: none;
+    }
+    .work_logo {
+        display:none;
+    }
+    .work_description{
+        width: 100%;
+    }
+
+    /*Contact me*/
+}
+@media only screen and (max-width: 1190px) {
+    #slogan, #form{
+        display:block;
+        width: 100%;
+        height:fit-content;
+    }
+    #form {
+        padding-bottom: 2rem;
+    }
+    
+    #slogan h1, #slogan h2{
+        padding: 2rem;
+        text-align: right;
+    }
+}
+@media only screen and (max-width: 445px) {
+    html {
+        font-size: 14px;
+    }
+}
