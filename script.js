@@ -21,20 +21,20 @@ secondParagraphToUnfold.style.display = "none";
 thirdParagraphToUnfold.style.display = "none";
 forthParagraphToUnfold.style.display = "none";
 
-firstArrowU.style.display = 'none';
-secondArrowU.style.display = 'none';
-thirdArrowU.style.display = 'none';
-forthArrowU.style.display = 'none';
+firstArrowU.style.display = "none";
+secondArrowU.style.display = "none";
+thirdArrowU.style.display = "none";
+forthArrowU.style.display = "none";
 /*General Functions to show & to hide the hidden paragraph*/
 function onClickForHiddenParagraph (paragraph, arrow1, arrow2) {
-    paragraph.style.display = 'block';
-    arrow1.style.display = 'none';
-    arrow2.style.display = 'block';
+    paragraph.style.display = "block";
+    arrow1.style.display = "none";
+    arrow2.style.display = "block";
 }
 function onClickForShownParagraph (paragraph,arrow1,arrow2) {
-    paragraph.style.display = 'none';
-    arrow1.style.display = 'block';
-    arrow2.style.display = 'none';
+    paragraph.style.display = "none";
+    arrow1.style.display = "block";
+    arrow2.style.display = "none";
 }
 /*Function to connect the event with each Hidden Paragraph*/
 function showFirstHiddenParagraph (event) {
